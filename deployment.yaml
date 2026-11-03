@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
         - name: my-country-service-container
-          image: nadouasahafiya/country-service:5
+          image: nadouasahafiya/my-country-service:v6
+          imagePullPolicy: Always
           ports:
             - containerPort: 8082
