@@ -18,7 +18,7 @@
         username: "{{ dockerhub_username }}"
         password: "{{ dockerhub_password }}"
         reauthorize: yes
-      # no_log: true
+      no_log: true
 
     - name: Build Docker image
       community.docker.docker_image:
