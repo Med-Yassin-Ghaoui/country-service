@@ -8,7 +8,7 @@
 
   vars:
     image_name: my-country-service
-    image_tag: v6
+    image_tag: "4"
     dockerfile_path: './'
     full_image: "{{ dockerhub_username }}/{{ image_name }}"
 
