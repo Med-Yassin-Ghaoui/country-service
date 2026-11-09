@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: my-country-service-container
-          image: ghaou/mycountryservice:9
+          image: ghaou/mycountryservice:4
           ports:
             - containerPort: 8082
